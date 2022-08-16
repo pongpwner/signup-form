@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Norse Bold";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/Norse-Bold.otf");
+}
+body {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  height: 100vh;
+}
+
+.hero {
+  background-image: url("../assets/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .logo {
+  margin-top: 30%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.hero .logo .logo-image {
+  width: 100px;
+}
+.hero .logo .logo-text {
+  font-family: "Norse Bold";
+  font-size: 100px;
+  color: white;
+}
+.hero .credit {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-form .intro, .sign-up-form .account {
+  background-color: lightgray;
+  flex-grow: 1;
+  padding: 30px 20px;
+}
+.sign-up-form .intro {
+  display: flex;
+  flex-direction: column;
+}
+.sign-up-form .intro .space {
+  flex-grow: 1;
+}
+.sign-up-form .intro p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.sign-up-form .contact {
+  margin-bottom: 10px;
+  padding: 20px 10px;
+  box-shadow: 0px 5px 20px gray;
+}
+.sign-up-form .contact h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.sign-up-form .contact ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-right: 30%;
+  grid-row-gap: 20px;
+}
+.sign-up-form .contact ul li {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.sign-up-form .account .create-account-button {
+  display: block;
+  padding: 10px 30px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.sign-up-form .account p {
+  margin: 20px 0px;
+}
+.sign-up-form .account p a {
+  text-decoration: none;
+  color: #596D48;
+}/*# sourceMappingURL=styles.css.map */
