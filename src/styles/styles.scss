@@ -103,3 +103,17 @@ flex-grow: 1;
         }
     }
 }
+
+input[type="text"]:focus,input[type="email"]:focus,input[type="password"]:focus{
+border-color: blue;
+}
+
+input[type="password"]:invalid{
+    border-color: red
+
+    }
+.c-password::after{
+    content: '* passwords do not match';
+    color: red;
+  display: block;
+}
